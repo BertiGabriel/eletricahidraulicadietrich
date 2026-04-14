@@ -1,29 +1,51 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
-  <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Sobre – Antônio Carlos Dietrich | Elétrica & Hidráulica Dietrich</title>
-  <meta name="description" content="Conheça Antônio Carlos Dietrich Mota, técnico com 26 anos de experiência em manutenção predial, elétrica e hidráulica em São Paulo."/>
-  <link rel="preconnect" href="https://fonts.googleapis.com"/>
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,500;0,700;0,900;1,300&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <meta name="description"
+    content="Conheça Antônio Carlos Dietrich Mota, técnico com 26 anos de experiência em manutenção predial, elétrica e hidráulica em São Paulo." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,500;0,700;0,900;1,300&family=DM+Sans:wght@300;400;500;600&display=swap"
+    rel="stylesheet" />
+  <script type="text/javascript">
+    (function (c, l, a, r, i, t, y) {
+      c[a] = c[a] || function () { (c[a].q = c[a].q || []).push(arguments) };
+      t = l.createElement(r); t.async = 1; t.src = "https://www.clarity.ms/tag/" + i;
+      y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y);
+    })(window, document, "clarity", "script", "wblob21l9g");
+  </script>
   <style>
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
     :root {
-      --navy:   #0f1d2e;
-      --navy2:  #162437;
-      --blue:   #1a5fa8;
-      --sky:    #2f8de4;
+      --navy: #0f1d2e;
+      --navy2: #162437;
+      --blue: #1a5fa8;
+      --sky: #2f8de4;
       --accent: #f59e0b;
-      --water:  #38bdf8;
-      --white:  #f8fafc;
-      --gray:   #64748b;
-      --light:  #e2e8f0;
-      --card:   #1a2e42;
+      --water: #38bdf8;
+      --white: #f8fafc;
+      --gray: #64748b;
+      --light: #e2e8f0;
+      --card: #1a2e42;
       --radius: 16px;
     }
-    html { scroll-behavior: smooth; }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
     body {
       font-family: 'DM Sans', sans-serif;
       background: var(--white);
@@ -33,185 +55,401 @@
 
     /* ── NAV ── */
     nav {
-      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
-      background: rgba(15,29,46,0.95);
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 100;
+      background: rgba(15, 29, 46, 0.95);
       backdrop-filter: blur(12px);
       padding: 0 2rem;
       height: 68px;
-      display: flex; align-items: center; justify-content: space-between;
-      border-bottom: 1px solid rgba(255,255,255,0.07);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.07);
     }
-    .nav-logo { display: flex; align-items: center; gap: 12px; text-decoration: none; }
+
+    .nav-logo {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+    }
+
     .nav-logo-text {
       font-family: 'Fraunces', serif;
-      font-size: 1.1rem; font-weight: 700;
-      color: var(--white); line-height: 1.15;
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--white);
+      line-height: 1.15;
     }
-    .nav-logo-text span { color: var(--accent); }
-    .nav-links { display: flex; gap: 2rem; list-style: none; }
+
+    .nav-logo-text span {
+      color: var(--accent);
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 2rem;
+      list-style: none;
+    }
+
     .nav-links a {
-      color: rgba(248,250,252,0.75);
-      text-decoration: none; font-size: .9rem; font-weight: 500;
+      color: rgba(248, 250, 252, 0.75);
+      text-decoration: none;
+      font-size: .9rem;
+      font-weight: 500;
       transition: color .2s;
     }
-    .nav-links a:hover, .nav-links a.active { color: var(--accent); }
-    .nav-cta {
-      background: var(--accent); color: var(--navy);
-      padding: .5rem 1.25rem; border-radius: 50px;
-      font-weight: 700; font-size: .88rem; text-decoration: none;
-      transition: opacity .2s; white-space: nowrap;
+
+    .nav-links a:hover,
+    .nav-links a.active {
+      color: var(--accent);
     }
-    .nav-cta:hover { opacity: .85; }
-    .hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; }
-    .hamburger span { width: 24px; height: 2px; background: var(--white); border-radius: 2px; display: block; }
+
+    .nav-cta {
+      background: var(--accent);
+      color: var(--navy);
+      padding: .5rem 1.25rem;
+      border-radius: 50px;
+      font-weight: 700;
+      font-size: .88rem;
+      text-decoration: none;
+      transition: opacity .2s;
+      white-space: nowrap;
+    }
+
+    .nav-cta:hover {
+      opacity: .85;
+    }
+
+    .hamburger {
+      display: none;
+      flex-direction: column;
+      gap: 5px;
+      cursor: pointer;
+    }
+
+    .hamburger span {
+      width: 24px;
+      height: 2px;
+      background: var(--white);
+      border-radius: 2px;
+      display: block;
+    }
 
     /* ── HERO SOBRE ── */
     .sobre-hero {
       background: linear-gradient(135deg, var(--navy) 0%, var(--navy2) 60%, #0a3055 100%);
       padding: 130px 2rem 80px;
-      position: relative; overflow: hidden;
+      position: relative;
+      overflow: hidden;
     }
+
     .sobre-hero::before {
       content: '';
-      position: absolute; inset: 0;
-      background: radial-gradient(ellipse 60% 70% at 30% 50%, rgba(47,141,228,0.1) 0%, transparent 70%);
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse 60% 70% at 30% 50%, rgba(47, 141, 228, 0.1) 0%, transparent 70%);
       pointer-events: none;
     }
+
     .sobre-hero-inner {
-      max-width: 1100px; margin: 0 auto;
-      display: grid; grid-template-columns: 340px 1fr; gap: 4rem; align-items: center;
+      max-width: 1100px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 340px 1fr;
+      gap: 4rem;
+      align-items: center;
     }
 
     /* Photo */
     .photo-wrap {
-      position: relative; display: flex; justify-content: center;
+      position: relative;
+      display: flex;
+      justify-content: center;
     }
+
     .photo-ring {
-      width: 280px; height: 280px; border-radius: 50%;
+      width: 280px;
+      height: 280px;
+      border-radius: 50%;
       background: linear-gradient(135deg, var(--blue), var(--water), var(--accent));
       padding: 4px;
-      box-shadow: 0 0 0 8px rgba(47,141,228,0.12), 0 20px 60px rgba(0,0,0,0.4);
+      box-shadow: 0 0 0 8px rgba(47, 141, 228, 0.12), 0 20px 60px rgba(0, 0, 0, 0.4);
     }
+
     .photo-inner {
-      width: 100%; height: 100%; border-radius: 50%;
-      overflow: hidden; background: var(--card);
-      display: flex; align-items: center; justify-content: center;
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      overflow: hidden;
+      background: var(--card);
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
+
     .photo-inner img {
-      width: 100%; height: 100%;
-      object-fit: cover; object-position: center top;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center top;
     }
+
     .photo-badge {
-      position: absolute; bottom: 8px; right: 40px;
-      background: var(--accent); color: var(--navy);
-      font-weight: 700; font-size: .8rem;
-      padding: .4rem .9rem; border-radius: 50px;
-      box-shadow: 0 4px 16px rgba(245,158,11,0.4);
+      position: absolute;
+      bottom: 8px;
+      right: 40px;
+      background: var(--accent);
+      color: var(--navy);
+      font-weight: 700;
+      font-size: .8rem;
+      padding: .4rem .9rem;
+      border-radius: 50px;
+      box-shadow: 0 4px 16px rgba(245, 158, 11, 0.4);
       white-space: nowrap;
     }
 
     /* Hero text */
-    .sobre-hero-text { color: var(--white); }
+    .sobre-hero-text {
+      color: var(--white);
+    }
+
     .sobre-tag {
       display: inline-block;
-      background: rgba(245,158,11,0.15);
-      border: 1px solid rgba(245,158,11,0.3);
+      background: rgba(245, 158, 11, 0.15);
+      border: 1px solid rgba(245, 158, 11, 0.3);
       color: var(--accent);
-      padding: .35rem 1rem; border-radius: 50px;
-      font-size: .78rem; font-weight: 700; letter-spacing: .08em;
+      padding: .35rem 1rem;
+      border-radius: 50px;
+      font-size: .78rem;
+      font-weight: 700;
+      letter-spacing: .08em;
       margin-bottom: 1.1rem;
     }
+
     .sobre-hero-text h1 {
       font-family: 'Fraunces', serif;
       font-size: clamp(2rem, 4vw, 3rem);
-      font-weight: 900; line-height: 1.1;
+      font-weight: 900;
+      line-height: 1.1;
       margin-bottom: .5rem;
     }
-    .sobre-hero-text h1 em { font-style: italic; color: var(--water); }
-    .sobre-subtitle {
-      font-size: 1rem; color: rgba(248,250,252,0.6);
-      margin-bottom: 1.75rem; line-height: 1.5;
+
+    .sobre-hero-text h1 em {
+      font-style: italic;
+      color: var(--water);
     }
-    .hero-chips { display: flex; flex-wrap: wrap; gap: .6rem; }
+
+    .sobre-subtitle {
+      font-size: 1rem;
+      color: rgba(248, 250, 252, 0.6);
+      margin-bottom: 1.75rem;
+      line-height: 1.5;
+    }
+
+    .hero-chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: .6rem;
+    }
+
     .chip {
-      background: rgba(255,255,255,0.08);
-      border: 1px solid rgba(255,255,255,0.15);
-      color: rgba(248,250,252,0.85);
-      padding: .3rem .85rem; border-radius: 50px;
-      font-size: .8rem; font-weight: 500;
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      color: rgba(248, 250, 252, 0.85);
+      padding: .3rem .85rem;
+      border-radius: 50px;
+      font-size: .8rem;
+      font-weight: 500;
     }
 
     /* ── BIO SECTION ── */
-    .bio-section { padding: 80px 2rem; background: var(--white); }
-    .bio-inner { max-width: 1100px; margin: 0 auto; display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: start; }
+    .bio-section {
+      padding: 80px 2rem;
+      background: var(--white);
+    }
+
+    .bio-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 4rem;
+      align-items: start;
+    }
+
     .section-tag {
       display: inline-block;
-      background: rgba(26,95,168,0.1); color: var(--blue);
-      font-size: .78rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase;
-      padding: .3rem .9rem; border-radius: 50px; margin-bottom: 1rem;
+      background: rgba(26, 95, 168, 0.1);
+      color: var(--blue);
+      font-size: .78rem;
+      font-weight: 700;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      padding: .3rem .9rem;
+      border-radius: 50px;
+      margin-bottom: 1rem;
     }
+
     .section-title {
       font-family: 'Fraunces', serif;
       font-size: clamp(1.6rem, 3vw, 2.2rem);
-      font-weight: 800; line-height: 1.2; color: var(--navy); margin-bottom: 1rem;
+      font-weight: 800;
+      line-height: 1.2;
+      color: var(--navy);
+      margin-bottom: 1rem;
     }
+
     .bio-text p {
-      font-size: 1rem; color: var(--gray); line-height: 1.8; margin-bottom: 1.1rem;
+      font-size: 1rem;
+      color: var(--gray);
+      line-height: 1.8;
+      margin-bottom: 1.1rem;
     }
-    .bio-text p:last-child { margin-bottom: 0; }
-    .bio-text strong { color: var(--navy); font-weight: 600; }
+
+    .bio-text p:last-child {
+      margin-bottom: 0;
+    }
+
+    .bio-text strong {
+      color: var(--navy);
+      font-weight: 600;
+    }
 
     /* Credentials */
-    .credentials { display: flex; flex-direction: column; gap: 1rem; }
+    .credentials {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
     .cred-item {
-      display: flex; gap: 1rem; align-items: flex-start;
-      background: #f8fafc; border: 1px solid var(--light);
-      border-radius: 14px; padding: 1.1rem 1.25rem;
+      display: flex;
+      gap: 1rem;
+      align-items: flex-start;
+      background: #f8fafc;
+      border: 1px solid var(--light);
+      border-radius: 14px;
+      padding: 1.1rem 1.25rem;
       transition: border-color .2s, box-shadow .2s;
     }
-    .cred-item:hover { border-color: rgba(26,95,168,0.3); box-shadow: 0 4px 20px rgba(26,95,168,0.07); }
-    .cred-icon {
-      width: 42px; height: 42px; border-radius: 10px; flex-shrink: 0;
-      display: flex; align-items: center; justify-content: center;
+
+    .cred-item:hover {
+      border-color: rgba(26, 95, 168, 0.3);
+      box-shadow: 0 4px 20px rgba(26, 95, 168, 0.07);
     }
-    .cred-title { font-weight: 600; font-size: .92rem; color: var(--navy); margin-bottom: .2rem; }
-    .cred-desc { font-size: .82rem; color: var(--gray); line-height: 1.5; }
+
+    .cred-icon {
+      width: 42px;
+      height: 42px;
+      border-radius: 10px;
+      flex-shrink: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .cred-title {
+      font-weight: 600;
+      font-size: .92rem;
+      color: var(--navy);
+      margin-bottom: .2rem;
+    }
+
+    .cred-desc {
+      font-size: .82rem;
+      color: var(--gray);
+      line-height: 1.5;
+    }
 
     /* ── EXPERTISE GRID ── */
-    .expertise-section { padding: 80px 2rem; background: #f1f5f9; }
-    .expertise-inner { max-width: 1100px; margin: 0 auto; }
-    .expertise-grid {
-      display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 1rem; margin-top: 2.5rem;
+    .expertise-section {
+      padding: 80px 2rem;
+      background: #f1f5f9;
     }
+
+    .expertise-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    .expertise-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+      margin-top: 2.5rem;
+    }
+
     .exp-card {
-      background: var(--white); border: 1px solid var(--light);
-      border-radius: 14px; padding: 1.5rem 1.25rem; text-align: center;
+      background: var(--white);
+      border: 1px solid var(--light);
+      border-radius: 14px;
+      padding: 1.5rem 1.25rem;
+      text-align: center;
       transition: transform .2s, box-shadow .2s;
     }
-    .exp-card:hover { transform: translateY(-3px); box-shadow: 0 8px 28px rgba(15,29,46,0.09); }
-    .exp-icon {
-      width: 52px; height: 52px; border-radius: 14px; margin: 0 auto 1rem;
-      display: flex; align-items: center; justify-content: center;
+
+    .exp-card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 8px 28px rgba(15, 29, 46, 0.09);
     }
-    .exp-card h4 { font-weight: 600; font-size: .92rem; color: var(--navy); line-height: 1.3; }
+
+    .exp-icon {
+      width: 52px;
+      height: 52px;
+      border-radius: 14px;
+      margin: 0 auto 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .exp-card h4 {
+      font-weight: 600;
+      font-size: .92rem;
+      color: var(--navy);
+      line-height: 1.3;
+    }
 
     /* ── STATS ── */
-    .stats-section { background: var(--card); padding: 0; }
+    .stats-section {
+      background: var(--card);
+      padding: 0;
+    }
+
     .stats-inner {
-      max-width: 1100px; margin: 0 auto;
-      display: grid; grid-template-columns: repeat(4,1fr);
+      max-width: 1100px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
     }
+
     .stat-item {
-      text-align: center; padding: 2.25rem 1rem;
-      border-right: 1px solid rgba(255,255,255,0.07);
+      text-align: center;
+      padding: 2.25rem 1rem;
+      border-right: 1px solid rgba(255, 255, 255, 0.07);
     }
-    .stat-item:last-child { border-right: none; }
+
+    .stat-item:last-child {
+      border-right: none;
+    }
+
     .stat-num {
       font-family: 'Fraunces', serif;
-      font-size: 2.4rem; font-weight: 900; color: var(--accent); line-height: 1;
+      font-size: 2.4rem;
+      font-weight: 900;
+      color: var(--accent);
+      line-height: 1;
     }
-    .stat-label { font-size: .85rem; color: rgba(248,250,252,0.55); margin-top: .3rem; }
+
+    .stat-label {
+      font-size: .85rem;
+      color: rgba(248, 250, 252, 0.55);
+      margin-top: .3rem;
+    }
 
     /* ── CTA ── */
     .cta-section {
@@ -219,331 +457,529 @@
       background: linear-gradient(135deg, var(--navy), #0a3055);
       text-align: center;
     }
+
     .cta-section h2 {
       font-family: 'Fraunces', serif;
       font-size: clamp(1.8rem, 3vw, 2.4rem);
-      color: var(--white); font-weight: 800; margin-bottom: .75rem;
+      color: var(--white);
+      font-weight: 800;
+      margin-bottom: .75rem;
     }
-    .cta-section p { color: rgba(255,255,255,0.6); margin-bottom: 2rem; font-size: 1rem; }
-    .cta-btns { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
+
+    .cta-section p {
+      color: rgba(255, 255, 255, 0.6);
+      margin-bottom: 2rem;
+      font-size: 1rem;
+    }
+
+    .cta-btns {
+      display: flex;
+      gap: 1rem;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
     .btn-wa {
-      display: inline-flex; align-items: center; gap: 10px;
-      background: #25d366; color: white;
-      padding: .9rem 1.8rem; border-radius: 50px;
-      font-weight: 700; font-size: 1rem; text-decoration: none;
-      box-shadow: 0 6px 24px rgba(37,211,102,0.35);
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background: #25d366;
+      color: white;
+      padding: .9rem 1.8rem;
+      border-radius: 50px;
+      font-weight: 700;
+      font-size: 1rem;
+      text-decoration: none;
+      box-shadow: 0 6px 24px rgba(37, 211, 102, 0.35);
       transition: transform .2s, box-shadow .2s;
     }
-    .btn-wa:hover { transform: translateY(-2px); box-shadow: 0 10px 32px rgba(37,211,102,0.45); }
+
+    .btn-wa:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 32px rgba(37, 211, 102, 0.45);
+    }
+
     .btn-outline {
-      display: inline-flex; align-items: center; gap: 10px;
-      background: rgba(255,255,255,0.08);
-      border: 1px solid rgba(255,255,255,0.2);
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.2);
       color: var(--white);
-      padding: .9rem 1.8rem; border-radius: 50px;
-      font-weight: 600; font-size: 1rem; text-decoration: none;
+      padding: .9rem 1.8rem;
+      border-radius: 50px;
+      font-weight: 600;
+      font-size: 1rem;
+      text-decoration: none;
       transition: background .2s;
     }
-    .btn-outline:hover { background: rgba(255,255,255,0.14); }
+
+    .btn-outline:hover {
+      background: rgba(255, 255, 255, 0.14);
+    }
 
     /* ── FOOTER ── */
     footer {
       background: #080f18;
-      padding: 2.5rem 2rem; text-align: center;
+      padding: 2.5rem 2rem;
+      text-align: center;
     }
+
     .footer-logo {
       font-family: 'Fraunces', serif;
-      font-size: 1.2rem; font-weight: 700; color: var(--white); margin-bottom: .4rem;
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: var(--white);
+      margin-bottom: .4rem;
     }
-    .footer-logo span { color: var(--accent); }
-    .footer-cnpj { font-size: .78rem; color: rgba(255,255,255,0.3); margin-bottom: 1.25rem; }
-    .footer-links { display: flex; gap: 1.5rem; justify-content: center; flex-wrap: wrap; margin-bottom: 1.25rem; }
-    .footer-links a { color: rgba(255,255,255,0.4); font-size: .82rem; text-decoration: none; transition: color .2s; }
-    .footer-links a:hover { color: var(--accent); }
-    .footer-copy { font-size: .78rem; color: rgba(255,255,255,0.2); }
+
+    .footer-logo span {
+      color: var(--accent);
+    }
+
+    .footer-cnpj {
+      font-size: .78rem;
+      color: rgba(255, 255, 255, 0.3);
+      margin-bottom: 1.25rem;
+    }
+
+    .footer-links {
+      display: flex;
+      gap: 1.5rem;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-bottom: 1.25rem;
+    }
+
+    .footer-links a {
+      color: rgba(255, 255, 255, 0.4);
+      font-size: .82rem;
+      text-decoration: none;
+      transition: color .2s;
+    }
+
+    .footer-links a:hover {
+      color: var(--accent);
+    }
+
+    .footer-copy {
+      font-size: .78rem;
+      color: rgba(255, 255, 255, 0.2);
+    }
 
     /* ── FLOAT WA ── */
     .float-wa {
-      position: fixed; bottom: 28px; right: 28px; z-index: 200;
-      width: 62px; height: 62px; border-radius: 50%;
+      position: fixed;
+      bottom: 28px;
+      right: 28px;
+      z-index: 200;
+      width: 62px;
+      height: 62px;
+      border-radius: 50%;
       background: #25d366;
-      display: flex; align-items: center; justify-content: center;
-      box-shadow: 0 6px 24px rgba(37,211,102,0.5);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 6px 24px rgba(37, 211, 102, 0.5);
       text-decoration: none;
       animation: pulse-wa 2.5s infinite;
       transition: transform .2s;
     }
-    .float-wa:hover { transform: scale(1.1); animation: none; }
+
+    .float-wa:hover {
+      transform: scale(1.1);
+      animation: none;
+    }
+
     @keyframes pulse-wa {
-      0%,100% { box-shadow: 0 6px 24px rgba(37,211,102,0.5); }
-      50% { box-shadow: 0 6px 36px rgba(37,211,102,0.8), 0 0 0 12px rgba(37,211,102,0.12); }
+
+      0%,
+      100% {
+        box-shadow: 0 6px 24px rgba(37, 211, 102, 0.5);
+      }
+
+      50% {
+        box-shadow: 0 6px 36px rgba(37, 211, 102, 0.8), 0 0 0 12px rgba(37, 211, 102, 0.12);
+      }
     }
 
     /* ── REVEAL ── */
-    .reveal { opacity: 0; transform: translateY(24px); transition: opacity .6s ease, transform .6s ease; }
-    .reveal.visible { opacity: 1; transform: none; }
+    .reveal {
+      opacity: 0;
+      transform: translateY(24px);
+      transition: opacity .6s ease, transform .6s ease;
+    }
+
+    .reveal.visible {
+      opacity: 1;
+      transform: none;
+    }
 
     /* ── RESPONSIVE ── */
     @media (max-width: 900px) {
-      .nav-links, .nav-cta { display: none; }
-      .hamburger { display: flex; }
-      .sobre-hero-inner { grid-template-columns: 1fr; text-align: center; gap: 2.5rem; }
-      .hero-chips { justify-content: center; }
-      .photo-wrap { justify-content: center; }
-      .photo-badge { right: auto; left: 50%; transform: translateX(-50%); }
-      .bio-inner { grid-template-columns: 1fr; }
-      .stats-inner { grid-template-columns: repeat(2,1fr); }
-      .stat-item:nth-child(2) { border-right: none; }
-      .stat-item { border-bottom: 1px solid rgba(255,255,255,0.07); }
-      .stat-item:nth-last-child(-n+2) { border-bottom: none; }
+
+      .nav-links,
+      .nav-cta {
+        display: none;
+      }
+
+      .hamburger {
+        display: flex;
+      }
+
+      .sobre-hero-inner {
+        grid-template-columns: 1fr;
+        text-align: center;
+        gap: 2.5rem;
+      }
+
+      .hero-chips {
+        justify-content: center;
+      }
+
+      .photo-wrap {
+        justify-content: center;
+      }
+
+      .photo-badge {
+        right: auto;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+
+      .bio-inner {
+        grid-template-columns: 1fr;
+      }
+
+      .stats-inner {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .stat-item:nth-child(2) {
+        border-right: none;
+      }
+
+      .stat-item {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+      }
+
+      .stat-item:nth-last-child(-n+2) {
+        border-bottom: none;
+      }
     }
+
     @media (max-width: 500px) {
-      .sobre-hero { padding: 100px 1.25rem 60px; }
-      .bio-section, .expertise-section { padding: 60px 1.25rem; }
-      .photo-ring { width: 220px; height: 220px; }
+      .sobre-hero {
+        padding: 100px 1.25rem 60px;
+      }
+
+      .bio-section,
+      .expertise-section {
+        padding: 60px 1.25rem;
+      }
+
+      .photo-ring {
+        width: 220px;
+        height: 220px;
+      }
     }
   </style>
 </head>
+
 <body>
 
-<!-- ═══ NAV ═══ -->
-<nav>
-  <a class="nav-logo" href="index.html">
-    <svg width="38" height="38" viewBox="0 0 38 38" fill="none">
-      <rect width="38" height="38" rx="10" fill="#1a5fa8"/>
-      <path d="M22 6L13 20h7l-4 12 13-18h-8l6-8z" fill="#f59e0b"/>
-      <path d="M27 23c0 2.2-1.8 4-4 4s-4-1.8-4-4c0-2.2 4-7 4-7s4 4.8 4 7z" fill="#38bdf8" opacity=".85"/>
-    </svg>
-    <span class="nav-logo-text">Elétrica &amp; <span>Hidráulica</span><br>Dietrich</span>
-  </a>
-  <ul class="nav-links">
-    <li><a href="sobre.html" class="active">Sobre</a></li>
-    <li><a href="index.html#servicos">Serviços</a></li>
-    <li><a href="index.html#por-que">Por que nós</a></li>
-    <li><a href="index.html#avaliacoes">Avaliações</a></li>
-    <li><a href="index.html#contato">Contato</a></li>
-  </ul>
-  <a class="nav-cta" href="https://wa.me/5511981640116?text=Olá! Gostaria de solicitar um orçamento." target="_blank">Solicitar Orçamento</a>
-  <div class="hamburger" id="hamburger">
-    <span></span><span></span><span></span>
-  </div>
-</nav>
-
-<!-- ═══ HERO SOBRE ═══ -->
-<section class="sobre-hero">
-  <div class="sobre-hero-inner">
-    <div class="photo-wrap reveal">
-      <div class="photo-ring">
-        <div class="photo-inner">
-          <img src="data:image/avif;base64,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" alt="Antônio Carlos Dietrich Mota" />
-        </div>
-      </div>
-      <div class="photo-badge">26 anos de experiência</div>
-    </div>
-    <div class="sobre-hero-text reveal">
-      <div class="sobre-tag">Sobre o profissional</div>
-      <h1>Antônio Carlos <em>Dietrich</em> Mota</h1>
-      <p class="sobre-subtitle">Técnico em Eletrotécnica e Automação Industrial · Encanador · Caça Vazamento · São Paulo – SP</p>
-      <div class="hero-chips">
-        <span class="chip">⚡ Eletrotécnico SENAI</span>
-        <span class="chip">🔧 Automação Industrial SENAI</span>
-        <span class="chip">💧 Técnico Hidráulico</span>
-        <span class="chip">❄️ Ar Condicionado</span>
-        <span class="chip">🏗️ Construção Civil</span>
-        <span class="chip">📍 Freguesia do Ó – SP</span>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ═══ STATS ═══ -->
-<div class="stats-section">
-  <div class="stats-inner">
-    <div class="stat-item">
-      <div class="stat-num">26</div>
-      <div class="stat-label">Anos de experiência</div>
-    </div>
-    <div class="stat-item">
-      <div class="stat-num">2</div>
-      <div class="stat-label">Formações técnicas SENAI</div>
-    </div>
-    <div class="stat-item">
-      <div class="stat-num">500+</div>
-      <div class="stat-label">Clientes atendidos</div>
-    </div>
-    <div class="stat-item">
-      <div class="stat-num">5★</div>
-      <div class="stat-label">Avaliação Google</div>
-    </div>
-  </div>
-</div>
-
-<!-- ═══ BIO + CREDENCIAIS ═══ -->
-<section class="bio-section">
-  <div class="bio-inner">
-    <div class="bio-text reveal">
-      <span class="section-tag">Trajetória</span>
-      <h2 class="section-title">Quem é Antônio Carlos</h2>
-      <p>Olá, meu nome é <strong>Antônio Carlos Dietrich Mota</strong>. Tenho 39 anos e moro na região da <strong>Freguesia do Ó</strong>, em São Paulo. Sou um profissional do mercado de manutenção predial e industrial <strong>há 26 anos</strong>.</p>
-      <p>Possuo duas formações técnicas pelo <strong>SENAI</strong>: <strong>Eletrotécnico</strong> e <strong>Técnico de Automação Industrial</strong>. Tenho amplo conhecimento em quadros elétricos, leitura e interpretação de diagramas elétricos (unifilares e trifilares) e conhecimento intermediário em comandos elétricos.</p>
-      <p>Na área hidráulica, atuo como <strong>encanador</strong>, <strong>caça vazamento</strong> e <strong>desentupimento de esgoto</strong>, com experiência em reparos em tubulações de PVC, PPR, Pex, cobre e ferro galvanizado.</p>
-      <p>Também realizo <strong>instalação, preventiva e corretiva de ar condicionado</strong>, além de possuir experiência em <strong>construção civil e alvenaria</strong> — oferecendo uma solução completa para a manutenção do seu imóvel.</p>
-    </div>
-    <div class="credentials reveal">
-      <span class="section-tag">Formações &amp; Competências</span>
-      <br/><br/>
-      <div class="cred-item">
-        <div class="cred-icon" style="background:linear-gradient(135deg,#1a5fa8,#2f8de4)">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M13 2L4.09 12.96A1 1 0 005 14.5h6.5L11 22l8.91-10.96A1 1 0 0019 9.5H12.5L13 2z"/></svg>
-        </div>
-        <div>
-          <div class="cred-title">Eletrotécnico – SENAI</div>
-          <div class="cred-desc">Quadros elétricos, diagramas unifilares e trifilares, comandos elétricos e NR-10.</div>
-        </div>
-      </div>
-      <div class="cred-item">
-        <div class="cred-icon" style="background:linear-gradient(135deg,#7c3aed,#a78bfa)">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
-        </div>
-        <div>
-          <div class="cred-title">Automação Industrial – SENAI</div>
-          <div class="cred-desc">Técnico de automação industrial, sistemas de controle e instrumentação.</div>
-        </div>
-      </div>
-      <div class="cred-item">
-        <div class="cred-icon" style="background:linear-gradient(135deg,#0369a1,#38bdf8)">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M12 2c0 0-8 7-8 13a8 8 0 0016 0c0-6-8-13-8-13z"/></svg>
-        </div>
-        <div>
-          <div class="cred-title">Técnico Hidráulico</div>
-          <div class="cred-desc">Encanamento, caça vazamento, desentupimento e tubulações PVC, PPR, Pex, cobre e ferro galvanizado.</div>
-        </div>
-      </div>
-      <div class="cred-item">
-        <div class="cred-icon" style="background:linear-gradient(135deg,#0f766e,#10b981)">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/></svg>
-        </div>
-        <div>
-          <div class="cred-title">Diversos cursos complementares</div>
-          <div class="cred-desc">Ar condicionado (instalação, preventiva e corretiva), construção civil, alvenaria e manutenção predial.</div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ═══ EXPERTISE ═══ -->
-<section class="expertise-section">
-  <div class="expertise-inner">
-    <div style="text-align:center;">
-      <span class="section-tag">Áreas de atuação</span>
-      <h2 class="section-title">Especialidades</h2>
-    </div>
-    <div class="expertise-grid">
-      <div class="exp-card reveal">
-        <div class="exp-icon" style="background:linear-gradient(135deg,#1a5fa8,#2f8de4)">
-          <svg width="26" height="26" viewBox="0 0 24 24" fill="white"><path d="M13 2L4.09 12.96A1 1 0 005 14.5h6.5L11 22l8.91-10.96A1 1 0 0019 9.5H12.5L13 2z"/></svg>
-        </div>
-        <h4>Instalações Elétricas</h4>
-      </div>
-      <div class="exp-card reveal">
-        <div class="exp-icon" style="background:linear-gradient(135deg,#0369a1,#38bdf8)">
-          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M12 2c0 0-8 7-8 13a8 8 0 0016 0c0-6-8-13-8-13z"/></svg>
-        </div>
-        <h4>Caça Vazamento</h4>
-      </div>
-      <div class="exp-card reveal">
-        <div class="exp-icon" style="background:linear-gradient(135deg,#0f766e,#10b981)">
-          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
-        </div>
-        <h4>Hidráulica Residencial</h4>
-      </div>
-      <div class="exp-card reveal">
-        <div class="exp-icon" style="background:linear-gradient(135deg,#b45309,#f59e0b)">
-          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/></svg>
-        </div>
-        <h4>Desentupimento</h4>
-      </div>
-      <div class="exp-card reveal">
-        <div class="exp-icon" style="background:linear-gradient(135deg,#0e7490,#22d3ee)">
-          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M9.59 4.59A2 2 0 1111 8H2m10.59 11.41A2 2 0 1014 16H2m15.73-8.27A2.5 2.5 0 1119.5 12H2"/></svg>
-        </div>
-        <h4>Ar Condicionado</h4>
-      </div>
-      <div class="exp-card reveal">
-        <div class="exp-icon" style="background:linear-gradient(135deg,#7c3aed,#a78bfa)">
-          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
-        </div>
-        <h4>Automação Industrial</h4>
-      </div>
-      <div class="exp-card reveal">
-        <div class="exp-icon" style="background:linear-gradient(135deg,#065f46,#10b981)">
-          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/></svg>
-        </div>
-        <h4>Construção Civil</h4>
-      </div>
-      <div class="exp-card reveal">
-        <div class="exp-icon" style="background:linear-gradient(135deg,#9f1239,#f43f5e)">
-          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-        </div>
-        <h4>Manutenção Predial</h4>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ═══ CTA ═══ -->
-<section class="cta-section">
-  <h2>Pronto para resolver seu problema?</h2>
-  <p>Fale diretamente com o Antônio e solicite um orçamento sem compromisso.</p>
-  <div class="cta-btns">
-    <a class="btn-wa" href="https://wa.me/5511981640116?text=Olá Antônio! Vi seu perfil no site e gostaria de um orçamento." target="_blank">
-      <svg width="20" height="20" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-      Falar pelo WhatsApp
+  <!-- ═══ NAV ═══ -->
+  <nav>
+    <a class="nav-logo" href="index.html">
+      <svg width="38" height="38" viewBox="0 0 38 38" fill="none">
+        <rect width="38" height="38" rx="10" fill="#1a5fa8" />
+        <path d="M22 6L13 20h7l-4 12 13-18h-8l6-8z" fill="#f59e0b" />
+        <path d="M27 23c0 2.2-1.8 4-4 4s-4-1.8-4-4c0-2.2 4-7 4-7s4 4.8 4 7z" fill="#38bdf8" opacity=".85" />
+      </svg>
+      <span class="nav-logo-text">Elétrica &amp; <span>Hidráulica</span><br>Dietrich</span>
     </a>
-    <a class="btn-outline" href="index.html#servicos">Ver Serviços</a>
+    <ul class="nav-links">
+      <li><a href="sobre.html" class="active">Sobre</a></li>
+      <li><a href="index.html#servicos">Serviços</a></li>
+      <li><a href="index.html#por-que">Por que nós</a></li>
+      <li><a href="index.html#avaliacoes">Avaliações</a></li>
+      <li><a href="index.html#contato">Contato</a></li>
+    </ul>
+    <a class="nav-cta" href="https://wa.me/5511981640116?text=Olá! Gostaria de solicitar um orçamento."
+      target="_blank">Solicitar Orçamento</a>
+    <div class="hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- ═══ HERO SOBRE ═══ -->
+  <section class="sobre-hero">
+    <div class="sobre-hero-inner">
+      <div class="photo-wrap reveal">
+        <div class="photo-ring">
+          <div class="photo-inner">
+            <img
+              src="data:image/avif;base64,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"
+              alt="Antônio Carlos Dietrich Mota" />
+          </div>
+        </div>
+        <div class="photo-badge">26 anos de experiência</div>
+      </div>
+      <div class="sobre-hero-text reveal">
+        <div class="sobre-tag">Sobre o profissional</div>
+        <h1>Antônio Carlos <em>Dietrich</em> Mota</h1>
+        <p class="sobre-subtitle">Técnico em Eletrotécnica e Automação Industrial · Encanador · Caça Vazamento · São
+          Paulo – SP</p>
+        <div class="hero-chips">
+          <span class="chip">⚡ Eletrotécnico SENAI</span>
+          <span class="chip">🔧 Automação Industrial SENAI</span>
+          <span class="chip">💧 Técnico Hidráulico</span>
+          <span class="chip">❄️ Ar Condicionado</span>
+          <span class="chip">🏗️ Construção Civil</span>
+          <span class="chip">📍 Freguesia do Ó – SP</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ STATS ═══ -->
+  <div class="stats-section">
+    <div class="stats-inner">
+      <div class="stat-item">
+        <div class="stat-num">26</div>
+        <div class="stat-label">Anos de experiência</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num">2</div>
+        <div class="stat-label">Formações técnicas SENAI</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num">500+</div>
+        <div class="stat-label">Clientes atendidos</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num">5★</div>
+        <div class="stat-label">Avaliação Google</div>
+      </div>
+    </div>
   </div>
-</section>
 
-<!-- ═══ FOOTER ═══ -->
-<footer>
-  <div class="footer-logo">Elétrica &amp; <span>Hidráulica</span> Dietrich</div>
-  <div class="footer-cnpj">CNPJ: 47.338.557/0001-09 · São Paulo – SP</div>
-  <div class="footer-links">
-    <a href="sobre.html">Sobre</a>
-    <a href="index.html#servicos">Serviços</a>
-    <a href="index.html#por-que">Por que nós</a>
-    <a href="index.html#avaliacoes">Avaliações</a>
-    <a href="index.html#contato">Contato</a>
-    <a href="https://maps.app.goo.gl/bh8KC7yodrCmTVv69" target="_blank">Google Maps</a>
-  </div>
-  <div class="footer-copy">© 2025 Elétrica &amp; Hidráulica Dietrich · Todos os direitos reservados</div>
-</footer>
+  <!-- ═══ BIO + CREDENCIAIS ═══ -->
+  <section class="bio-section">
+    <div class="bio-inner">
+      <div class="bio-text reveal">
+        <span class="section-tag">Trajetória</span>
+        <h2 class="section-title">Quem é Antônio Carlos</h2>
+        <p>Olá, meu nome é <strong>Antônio Carlos Dietrich Mota</strong>. Tenho 39 anos e moro na região da
+          <strong>Freguesia do Ó</strong>, em São Paulo. Sou um profissional do mercado de manutenção predial e
+          industrial <strong>há 26 anos</strong>.</p>
+        <p>Possuo duas formações técnicas pelo <strong>SENAI</strong>: <strong>Eletrotécnico</strong> e <strong>Técnico
+            de Automação Industrial</strong>. Tenho amplo conhecimento em quadros elétricos, leitura e interpretação de
+          diagramas elétricos (unifilares e trifilares) e conhecimento intermediário em comandos elétricos.</p>
+        <p>Na área hidráulica, atuo como <strong>encanador</strong>, <strong>caça vazamento</strong> e
+          <strong>desentupimento de esgoto</strong>, com experiência em reparos em tubulações de PVC, PPR, Pex, cobre e
+          ferro galvanizado.</p>
+        <p>Também realizo <strong>instalação, preventiva e corretiva de ar condicionado</strong>, além de possuir
+          experiência em <strong>construção civil e alvenaria</strong> — oferecendo uma solução completa para a
+          manutenção do seu imóvel.</p>
+      </div>
+      <div class="credentials reveal">
+        <span class="section-tag">Formações &amp; Competências</span>
+        <br /><br />
+        <div class="cred-item">
+          <div class="cred-icon" style="background:linear-gradient(135deg,#1a5fa8,#2f8de4)">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+              <path d="M13 2L4.09 12.96A1 1 0 005 14.5h6.5L11 22l8.91-10.96A1 1 0 0019 9.5H12.5L13 2z" />
+            </svg>
+          </div>
+          <div>
+            <div class="cred-title">Eletrotécnico – SENAI</div>
+            <div class="cred-desc">Quadros elétricos, diagramas unifilares e trifilares, comandos elétricos e NR-10.
+            </div>
+          </div>
+        </div>
+        <div class="cred-item">
+          <div class="cred-icon" style="background:linear-gradient(135deg,#7c3aed,#a78bfa)">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+              <rect x="2" y="3" width="20" height="14" rx="2" />
+              <path d="M8 21h8M12 17v4" />
+            </svg>
+          </div>
+          <div>
+            <div class="cred-title">Automação Industrial – SENAI</div>
+            <div class="cred-desc">Técnico de automação industrial, sistemas de controle e instrumentação.</div>
+          </div>
+        </div>
+        <div class="cred-item">
+          <div class="cred-icon" style="background:linear-gradient(135deg,#0369a1,#38bdf8)">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+              <path d="M12 2c0 0-8 7-8 13a8 8 0 0016 0c0-6-8-13-8-13z" />
+            </svg>
+          </div>
+          <div>
+            <div class="cred-title">Técnico Hidráulico</div>
+            <div class="cred-desc">Encanamento, caça vazamento, desentupimento e tubulações PVC, PPR, Pex, cobre e ferro
+              galvanizado.</div>
+          </div>
+        </div>
+        <div class="cred-item">
+          <div class="cred-icon" style="background:linear-gradient(135deg,#0f766e,#10b981)">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+              <path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01" />
+            </svg>
+          </div>
+          <div>
+            <div class="cred-title">Diversos cursos complementares</div>
+            <div class="cred-desc">Ar condicionado (instalação, preventiva e corretiva), construção civil, alvenaria e
+              manutenção predial.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-<!-- ═══ BOTÃO FLUTUANTE WHATSAPP ═══ -->
-<a class="float-wa" href="https://wa.me/5511981640116?text=Olá! Gostaria de solicitar um orçamento." target="_blank" aria-label="Falar pelo WhatsApp">
-  <svg width="30" height="30" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-</a>
+  <!-- ═══ EXPERTISE ═══ -->
+  <section class="expertise-section">
+    <div class="expertise-inner">
+      <div style="text-align:center;">
+        <span class="section-tag">Áreas de atuação</span>
+        <h2 class="section-title">Especialidades</h2>
+      </div>
+      <div class="expertise-grid">
+        <div class="exp-card reveal">
+          <div class="exp-icon" style="background:linear-gradient(135deg,#1a5fa8,#2f8de4)">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="white">
+              <path d="M13 2L4.09 12.96A1 1 0 005 14.5h6.5L11 22l8.91-10.96A1 1 0 0019 9.5H12.5L13 2z" />
+            </svg>
+          </div>
+          <h4>Instalações Elétricas</h4>
+        </div>
+        <div class="exp-card reveal">
+          <div class="exp-icon" style="background:linear-gradient(135deg,#0369a1,#38bdf8)">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+              <path d="M12 2c0 0-8 7-8 13a8 8 0 0016 0c0-6-8-13-8-13z" />
+            </svg>
+          </div>
+          <h4>Caça Vazamento</h4>
+        </div>
+        <div class="exp-card reveal">
+          <div class="exp-icon" style="background:linear-gradient(135deg,#0f766e,#10b981)">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+              <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z" />
+              <polyline points="9 22 9 12 15 12 15 22" />
+            </svg>
+          </div>
+          <h4>Hidráulica Residencial</h4>
+        </div>
+        <div class="exp-card reveal">
+          <div class="exp-icon" style="background:linear-gradient(135deg,#b45309,#f59e0b)">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+              <path
+                d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z" />
+            </svg>
+          </div>
+          <h4>Desentupimento</h4>
+        </div>
+        <div class="exp-card reveal">
+          <div class="exp-icon" style="background:linear-gradient(135deg,#0e7490,#22d3ee)">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+              <path d="M9.59 4.59A2 2 0 1111 8H2m10.59 11.41A2 2 0 1014 16H2m15.73-8.27A2.5 2.5 0 1119.5 12H2" />
+            </svg>
+          </div>
+          <h4>Ar Condicionado</h4>
+        </div>
+        <div class="exp-card reveal">
+          <div class="exp-icon" style="background:linear-gradient(135deg,#7c3aed,#a78bfa)">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+              <rect x="2" y="3" width="20" height="14" rx="2" />
+              <path d="M8 21h8M12 17v4" />
+            </svg>
+          </div>
+          <h4>Automação Industrial</h4>
+        </div>
+        <div class="exp-card reveal">
+          <div class="exp-icon" style="background:linear-gradient(135deg,#065f46,#10b981)">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+              <path
+                d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z" />
+            </svg>
+          </div>
+          <h4>Construção Civil</h4>
+        </div>
+        <div class="exp-card reveal">
+          <div class="exp-icon" style="background:linear-gradient(135deg,#9f1239,#f43f5e)">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+            </svg>
+          </div>
+          <h4>Manutenção Predial</h4>
+        </div>
+      </div>
+    </div>
+  </section>
 
-<script>
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach((e, i) => {
-      if (e.isIntersecting) {
-        setTimeout(() => e.target.classList.add('visible'), i * 80);
-        observer.unobserve(e.target);
+  <!-- ═══ CTA ═══ -->
+  <section class="cta-section">
+    <h2>Pronto para resolver seu problema?</h2>
+    <p>Fale diretamente com o Antônio e solicite um orçamento sem compromisso.</p>
+    <div class="cta-btns">
+      <a class="btn-wa"
+        href="https://wa.me/5511981640116?text=Olá Antônio! Vi seu perfil no site e gostaria de um orçamento."
+        target="_blank">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="white">
+          <path
+            d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+        </svg>
+        Falar pelo WhatsApp
+      </a>
+      <a class="btn-outline" href="index.html#servicos">Ver Serviços</a>
+    </div>
+  </section>
+
+  <!-- ═══ FOOTER ═══ -->
+  <footer>
+    <div class="footer-logo">Elétrica &amp; <span>Hidráulica</span> Dietrich</div>
+    <div class="footer-cnpj">CNPJ: 47.338.557/0001-09 · São Paulo – SP</div>
+    <div class="footer-links">
+      <a href="sobre.html">Sobre</a>
+      <a href="index.html#servicos">Serviços</a>
+      <a href="index.html#por-que">Por que nós</a>
+      <a href="index.html#avaliacoes">Avaliações</a>
+      <a href="index.html#contato">Contato</a>
+      <a href="https://maps.app.goo.gl/bh8KC7yodrCmTVv69" target="_blank">Google Maps</a>
+    </div>
+    <div class="footer-copy">© 2025 Elétrica &amp; Hidráulica Dietrich · Todos os direitos reservados</div>
+  </footer>
+
+  <!-- ═══ BOTÃO FLUTUANTE WHATSAPP ═══ -->
+  <a class="float-wa" href="https://wa.me/5511981640116?text=Olá! Gostaria de solicitar um orçamento." target="_blank"
+    aria-label="Falar pelo WhatsApp">
+    <svg width="30" height="30" viewBox="0 0 24 24" fill="white">
+      <path
+        d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+    </svg>
+  </a>
+
+  <script>
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((e, i) => {
+        if (e.isIntersecting) {
+          setTimeout(() => e.target.classList.add('visible'), i * 80);
+          observer.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.1 });
+    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+    document.getElementById('hamburger').addEventListener('click', () => {
+      const links = document.querySelector('.nav-links');
+      if (links.style.display === 'flex') {
+        links.style.display = 'none';
+      } else {
+        links.style.cssText = 'display:flex;flex-direction:column;position:absolute;top:68px;left:0;right:0;background:rgba(15,29,46,0.98);padding:1.5rem 2rem;gap:1.25rem;';
       }
     });
-  }, { threshold: 0.1 });
-  document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
-
-  document.getElementById('hamburger').addEventListener('click', () => {
-    const links = document.querySelector('.nav-links');
-    if (links.style.display === 'flex') {
-      links.style.display = 'none';
-    } else {
-      links.style.cssText = 'display:flex;flex-direction:column;position:absolute;top:68px;left:0;right:0;background:rgba(15,29,46,0.98);padding:1.5rem 2rem;gap:1.25rem;';
-    }
-  });
-</script>
+  </script>
 </body>
+
 </html>
